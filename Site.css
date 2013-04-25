@@ -1,7 +1,12 @@
 /*header and navigation*/
 
-body{
-	width: 1400px;
+body {
+	
+}
+	
+.wrap{
+	width: 1175px;
+	margin: 0 auto;
 	}
 	
 .header, .navigation {
@@ -10,21 +15,22 @@ body{
 	}
 
 .header{
-	width:30%;
 	float: left;
-	margin: 20px 0 5px 25px;
 	font-size: 25px;
+	margin: 25px;
+	
     }
 
 .navigation{
-	
-	margin-right: 65px;
+  float: right;
+  margin : 25px;
+  font-size: 17px;
+  padding: 0;
 }
+    
     
 .navigation li{
     float: right;
-    clear: none;
-    margin-top: 35px;
     padding-left: 15px;
     position: relative;
     display: block;
@@ -45,35 +51,43 @@ body{
 .grid-1{
   font-family: 'Roboto', sans-serif;
   color:  white;
-  position: absolute;
-  width: 92%;
-  margin: 90px 0px 0px 20px;
-  border-radius: 0px;
+  position: relative;
+  clear:both;
+  width: 1175px;
+  margin: auto 0px;
   background: rgba(123, 121, 143, .8);
-  clear: both;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+       -o-border-radius: 15px;
+          
   }
  
-.img{
-  float: left;
-  position: relative;
-  }
+
+.image{
+	position: relative;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	}
 
 .text {
   float:right;
   position: absolute;
   margin: 10px 0 0 530px;
   line-height: 2;
+  color: white;
+  padding-right: 10px;
   }
   
 .grid-2{
-  width: 92%;
-  margin: 400 0 0 20;
+  width: 1170px;
   position: absolute;
+  
   }
   
 .boxes {
   width: 30%;
-  border-radius: 15px;
   border: black;
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
@@ -81,7 +95,7 @@ body{
   color:  #898F9C;
   float: left;
   padding-left: 5px;
-  margin-left: 60px;
+  margin-left: 40px;
   }
   
 /*columns*/
@@ -183,4 +197,83 @@ body{
 /*experimental*/
 
 
+/*journal*/
 
+
+.wrap-journal {
+	width: 1175px;
+	margin: 0 auto;
+	
+}
+
+.container {
+	width: 1010px;
+	height: 900px;
+    border: 1px solid black;
+	overflow: hidden;
+	margin-left: 50px;
+	border-radius: 15px;
+	}
+
+    
+.left-side{
+    float: left;
+	width: 600px;
+	height: 300px;
+	margin: 15px;
+	
+	color: red;
+	font-family: 'Roboto', sans-serif;
+    color:  #898F9C;
+    }
+
+.right-side, .resources{
+ float: right;
+ width: 325px;
+
+ margin-top: 70px;
+ }
+ 
+.resources{
+margin-top: 30px;
+ }
+ .list li, .externalsites li {
+ list-style: none;
+ font-family: 'Roboto', sans-serif;
+ color:  #898F9C;
+ border-bottom: 1px solid #cbd1ce;
+ }
+ 
+ 
+ .list li:visited{color:#898F9C;}
+ .list li:hover{color: black;}
+ .list li:active{color:#898F9C;}
+
+
+.pubdate{
+ font-size: 13px;
+ padding-left: 8px;
+}
+
+.externalsites :link{color: #898F9C; text-decoration: none;}
+.externalsites :visited{color: #898F9C;}
+.externalsites :hover{color: black;}
+.externalsites :active{color:#898F9C;}
+
+h3 {
+font-family: 'Roboto', sans-serif;
+color:  #898F9C;
+margin-left: 40px;
+font-size: 16px;	
+}
+
+
+a[href^='https:']:after {
+  content: url(lock.png);
+  padding-left: 4px;
+}
+
+
+.left-side p{text-indent: 40px;
+	
+}
