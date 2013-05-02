@@ -230,13 +230,15 @@ body {
 .right-side, .resources{
  float: right;
  width: 325px;
-
+ font-family: 'Roboto', sans-serif;
+ color:  #898F9C;
  margin-top: 70px;
  }
  
 .resources{
 margin-top: 30px;
  }
+ 
  .list li, .externalsites li {
  list-style: none;
  font-family: 'Roboto', sans-serif;
