@@ -17,13 +17,13 @@ body {
 .header{
 	float: left;
 	font-size: 25px;
-	margin: 25px;
+	margin: 2.5%;/*25px*/
 	
     }
 
 .navigation{
   float: right;
-  margin : 25px;
+  margin: 2.5%;/*25px*/
   font-size: 17px;
   padding: 0;
 }
@@ -277,3 +277,40 @@ a[href^='https:']:after {
 .left-side p{text-indent: 40px;
 	
 }
+
+/*journal*/
+
+
+/*responsive*/
+
+
+.catbox{
+
+border: 1px solid black;
+width: 90%;
+position: absolute;
+}
+
+.cats li{
+	float: left;
+	padding: 0px 5px;
+}
+
+
+@media (min-width: 600px) {
+  
+  
+  .cats li {
+    margin: .75%;
+    width: 18.5%;
+  }
+}
+
+
+@media (min-width: 900px) {
+  
+   .cats li {
+    margin: 1.25%;
+    width: 22.5%;
+  }
+  
