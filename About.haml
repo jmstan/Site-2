@@ -1,0 +1,45 @@
+%html
+  %title
+  %head
+    %link{:href => "Site.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "http://fonts.googleapis.com/css?family=Roboto", :rel => "stylesheet", :type => "text/css"}/
+  %body
+    .wrap
+      .grid-1
+        %h1 Jane Stanton
+        %ul.navigation
+          %li
+            %a.link{:href => "Responsive.html", :title => "information"} Responsive
+          %li
+            %a.link{:href => "Journal.html", :title => "information"} Journal
+          %li
+            %a.link{:href => "Site.html", :title => "information"} Home
+          %li
+            %a.link{:href => "Site.html", :title => "information"} About
+          %li
+            %a.link{:href => "experiment.html", :title => "information"} Experimental
+      %aside
+        .blue
+        .yellow
+        .red
+        .green
+      .grid-2
+        %h2 About
+        %article
+          %p
+            Hi, My name is Jane Stanton and I am in the process of learning code at The Starter League. I live in Chicago and am
+            interested in learning as much as I can about becoming a front-end developer. I studied photography in college, where I took my
+            first web design class. I currently am exploring many related components such as code, structure, typography, color, content
+            and graphics. Most of my time is spent figuring out and creating pages with clean and efficient code.
+            %br/
+            = succeed "When" do
+              %br/
+            I am not practicing code, I work with high school students. I am a passionate runner and recently coached for a girls'
+            cross country and track and field team. I also love photographing, volunteering at PAWS Chicago, and following music blogs.
+      .icons
+        %img{:alt => "instagram-icon", :height => "35", :src => "../../Documents/column%20positioning/instagram-icon.png", :width => "35"}/
+        %img{:alt => "google-icon", :height => "35", :src => "../../Documents/column%20positioning/google-icon.png", :width => "35"}/
+        %img{:alt => "twitter-icon", :height => "35", :src => "../../Documents/column%20positioning/twitter-icon.png", :width => "35"}/
+      %footer
+        %img.cpyri{:alt => "Copyright1", :height => "13", :src => "Copyright1.png", :width => "18"}/
+        %p Copyright 2013
