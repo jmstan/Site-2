@@ -17,26 +17,24 @@ h1, .navigation {
 	}
 
 h1 {
+    width: 300px;
 	float: left;
 	font-size: 25px;
-	margin: 25px 30px;
+	margin: 25px 128px 0 25px;
     }
 
 
 .navigation{
-  width:500px;
-  margin-left: 18.5%;
+  margin-top: 3%;
   float: left;
   font-size: 17px;
-  padding: 0;
+  padding-left: 0;
 }
 
     
 .navigation li{
     float: right;
     padding-left: 10px;
-    position: relative;
-    display: block;
     border-right: 1px solid #898F9C;
     padding-right: 10px;
     }
@@ -49,8 +47,8 @@ h2 {
 	}
 
 .grid-1{
-	width: 90%;
-	overflow: hidden;
+	
+	
 	}
 
 aside{
