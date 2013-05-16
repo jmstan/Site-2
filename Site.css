@@ -378,17 +378,19 @@ aside{
   .grid-2{
 	  width:90%;
 	  margin: 5%;
-
-	  
-	  
-}}	  
+    }}	  
 
     
-    
-
      
      
 @media (max-width: 480px){
+
+.navigation {
+	width:100%;
+	
+}
+
+
 aside{
 	width: 100%;
 }
@@ -416,8 +418,8 @@ h1{
 }
    
  .grid-2{
-	 width: 96%;
-	 margin: 2%;
+	 width: 98%;
+	 margin: 1%;
  }
 
 	
