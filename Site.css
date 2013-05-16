@@ -8,7 +8,6 @@ body {
 	width: 90%;
 	overflow: hidden;
 	margin: 0 auto;
-	border: 1px solid black;
 	}
 	
 h1, .navigation {
@@ -33,13 +32,15 @@ h1 {
 
     
 .navigation li{
-    float: right;
+    float: left;
     padding-left: 10px;
     border-right: 1px solid #898F9C;
     padding-right: 10px;
     }
  
-
+.navigation li:last-of-type{
+   border-right: none;
+   }
 
 h2 {
     font-family: 'Roboto', sans-serif;
@@ -269,18 +270,10 @@ img.check{
 /*journal*/
 
 
-.wrap-journal {
-	width: 1175px;
-	margin: 0 auto;
-	
-}
-
 .container {
 	width: 1010px;
-	height: 900px;
     border: 1px solid black;
 	overflow: hidden;
-	margin-left: 50px;
 	border-radius: 15px;
 	}
 
@@ -288,10 +281,7 @@ img.check{
 .left-side{
     float: left;
 	width: 600px;
-	height: 300px;
 	margin: 15px;
-	
-	color: red;
 	font-family: 'Roboto', sans-serif;
     color:  #898F9C;
     }
@@ -354,7 +344,13 @@ a[href^='https:']:after {
 
 /*responsive*/
 
-@media (max-width: 1000px){
+@media (max-width: 1050px){
+
+.navigation {
+	width:100%;
+}
+
+
 aside{
 	width: 100%;
 }
@@ -381,55 +377,16 @@ aside{
   .grid-2{
 	  width:90%;
 	  margin: 5%;
+
 	  
-  } 
-    }
+	  
+}}	  
+
     
     
-@media (max-width: 700px){
-	
-	aside{
-	width: 100%;
-}
-  .blue {
-	  width: 98%;
-	  margin: 2%;
-     }
-	  
-	 .yellow {
-	  width: 96%;
-	  margin: 2%;
-     }
-	 
-	  .red {
-	  width: 96%;
-	  margin: 2%;
-     }
+
      
-      .green {
-	  width: 96%;
-	  margin: 2%;
-     }
-h1{
-	margin-left:30%;
-}
-   
- .grid-2{
-	 width: 96%;
- }
-
-.navigation {
-	width: 20%;
-	margin-left:50%;
-}
-
- }
-	
-}
-
-
-
-)
+     
 @media (max-width: 480px){
 aside{
 	width: 100%;
@@ -459,14 +416,13 @@ h1{
    
  .grid-2{
 	 width: 96%;
+	 margin: 2%;
  }
 
-.navigation {
-	width: 20%;
-	margin-left:50%;
+	
 }
 
- }
+ 
 
 
 	

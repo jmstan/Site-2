@@ -1,0 +1,102 @@
+body {
+	
+}
+	
+.wrap{
+	width: 90%;
+	overflow: hidden;
+	margin: 0 auto;
+	border: 1px solid black;
+	}
+	
+h1, .navigation {
+	font-family: 'Roboto', sans-serif;
+	color:  #898F9C;
+	}
+
+
+h1 {
+    width: 300px;
+	float: left;
+	font-size: 25px;
+	margin: 25px 128px 0 25px;
+    }
+
+.navigation{
+  margin-top: 3%;
+  float: left;
+  font-size: 17px;
+  padding-left: 0;
+}
+
+    
+.navigation li{
+    float: left;
+    padding-left: 10px;
+    border-right: 1px solid #898F9C;
+    padding-right: 10px;
+    }
+ 
+.navigation li:last-of-type{
+   border-right: none;
+   }
+    
+.navigation a:link{color:#898F9C; text-decoration: none;}
+.navigation a:visited{color:#898F9C;}
+.navigation a:hover{color: black;}
+.navigation a:active{color:#898F9C;}
+ 
+
+.grid-1{
+	width: 90%;
+	overflow: hidden;
+
+	}
+
+.grid-3{
+	float: left;
+	border: 1px solid black;
+	width: 300px;
+	height: 150px;
+	background-color: aqua;
+	}
+
+.group-buttons{
+	width: 400px;
+	border: 1px solid black;
+	float: left;
+	}
+
+
+.yellow, .green, .blue, .red{
+	width: 400px;
+	height: 50px;
+	margin-bottom: 20px;
+	 -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+       -o-border-radius: 10px;
+          border-radius: 10px;
+    }
+    
+.yellow{
+	background-color: yellow;
+	
+}
+
+.green{
+	background-color: green;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.red{
+	background-color: red;
+}
+
+.stop, .stop1, .stop2, .stop3{
+	float: right;
+	margin: 3px 5px 0 0;
+}
