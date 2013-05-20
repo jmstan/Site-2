@@ -383,7 +383,7 @@ aside{
     
      
      
-@media (max-width: 480px){
+@media (max-width: 460px){
 
 .navigation {
 	width:100%;
@@ -420,10 +420,7 @@ h1{
  .grid-2{
 	 width: 98%;
 	 margin: 1%;
- }
-
-	
-}
+ }}
 
  
 
