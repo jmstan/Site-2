@@ -127,7 +127,7 @@ footer p{
 .grid-2{
 	overflow: hidden;
 	width: 55%;
-	padding-left: 15px;
+	padding-left: 1.5%;
 	}
 
 article {
@@ -383,10 +383,11 @@ aside{
     
      
      
-@media (max-width: 400px){
+@media (max-width: 480px){
 
 .navigation {
 	width:100%;
+	
 	
 }
 
@@ -418,8 +419,9 @@ h1{
 }
    
  .grid-2{
-	 width: 98%;
-	 margin: 1%;
+	 width: 90%;
+	 padding-left: 1%;
+	 
  }}
 
  
