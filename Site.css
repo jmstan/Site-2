@@ -18,7 +18,7 @@ h1, .navigation {
 h1 {
     width: 300px;
 	float: left;
-	font-size: 25px;
+	font-size: 1.563em;
 	margin: 25px 128px 0 25px;
     }
 
@@ -26,7 +26,7 @@ h1 {
 .navigation{
   margin-top: 3%;
   float: left;
-  font-size: 17px;
+  font-size: 1.063em;
   padding-left: 0;
 }
 
@@ -101,7 +101,7 @@ footer{
 	overflow:hidden;
 	border-top: 1px solid #898F9C;
 	font-family: 'Roboto', sans-serif;
-	font-size: 12px;
+	font-size: 0.750em;
 	color:  #898F9C;
 	}
    
@@ -312,7 +312,7 @@ margin-top: 30px;
 
 
 .pubdate{
- font-size: 13px;
+ font-size:0.813em;
  padding-left: 8px;
 }
 
@@ -325,7 +325,7 @@ h3 {
 font-family: 'Roboto', sans-serif;
 color:  #898F9C;
 margin-left: 40px;
-font-size: 16px;	
+font-size: 1.000em;	
 }
 
 
@@ -377,7 +377,7 @@ aside{
      
   .grid-2{
 	  width:90%;
-	  margin: 5%;
+	  margin: 3%;
     }}	  
 
     
