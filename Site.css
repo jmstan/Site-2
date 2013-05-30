@@ -386,10 +386,10 @@ aside{
 @media (max-width: 480px){
 
 .navigation {
-	width:100%;
+	width:98%;
+	margin: 2%;
+	}
 	
-	
-}
 
 
 aside{
